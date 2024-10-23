@@ -31,10 +31,10 @@ export default function Home() {
 
                 <div className="bg-[#0eaad5] p-6 rounded-md">
                     <p className="text-white italic text-3xl">
-                    &quot;{quote?.quote || 'Loading...'}&quot;
+                    &ldquo;{quote?.quote || 'Loading...'}&rdquo;
                     </p>
                     <p className="mt-4 text-right font-medium text-lg text-white">
-                        — {quote?.author || ''}
+                        — {quote?.author || ''} a&rdquo;
                     </p>
                 </div>
 
